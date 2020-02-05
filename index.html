@@ -6,7 +6,7 @@
     <title>Kevin Hammond: Blog posts</title>
     <style>
     body {width: 82%;margin: 1em auto;background: #ececec;font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";line-height: 1.5;font-size:18px;}
-    .step {background: #fafafa;margin: 1em; padding: 1em;border: 1px solid #e0e0e0;border-radius:4px;}
+    .step {background: #e67070;margin: 1em; padding: 1em;border: 1px solid #e0e0e0;border-radius:4px;}
     code {background: #e0e0e0; padding: .2em .5em .2em .5em;}
     h3 {margin-bottom: 0; padding-bottom: 0;}
     p:first-child {padding-top: 0;margin-top:0;}
@@ -22,13 +22,20 @@
     </div>
 
     <div class= "step">
-      <h2>Step Two: What Now?</h2>
-        <p> Now that you are looking at the coding window, it asks you for your user name. Your username should be for the first part of your email. For example, mine is 'hammonkm'.
+      <h1>Step Two: What Now?</h1>
+        <p> Now that you are looking at the coding window, it asks you for your user name. Your username should be for the first part of your email. For example, mine is 'hammonkm'. Then using the IP address provided on Moodle, you can log in.</p>
+        <p> Once that is done, using the log in code: $ ssh username@64.227.19.180, where username is the first part of your Clarkson email.</p>
     </div>
-    <!-- Don't forget to change the page title -->
-    <!-- You can wrap your steps in a <div> with a class of .step for basic styles-->
-    <!-- Feel free to change the styles as you see fit-->
-    <!-- Please use <pre> and <code> tags properly for commands and code-->
-    <!-- Please delete these comments in your posts :) -->
+
+    <div class ="step">
+        <h1>Step Three: Making a folder</h1>
+          <p> To get your project on the web, you'll need to set up a directory inside the web root. To change from your initial working directory to the web root, run the following command: $ cd ../../var/www/html.</p>
+          <p>Then, you can make your project directory inside the html folder. Please name it your username. You can put any number of other subdirectories inside it.</p>
+    </div>
+
+    <div class ="step">
+        <h1> Step Four: You're Done!</h1>
+          <p> Congratulations, you are done! Now you can use this folder to do whatever you like. Please be sure to use the command 'sudo' to change the permissions so you can access your own folder and make changes!</p>
+    </div>
   </body>
 </html>
